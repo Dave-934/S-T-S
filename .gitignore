@@ -1,0 +1,8 @@
+.env
+config.ini
+demo_final.py
+demo_test.py
+prompt.txt
+lvenv/
+__pycache__/
+*.pyc
