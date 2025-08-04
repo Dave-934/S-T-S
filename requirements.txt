@@ -1,5 +1,6 @@
 sounddevice
 numpy
+pyaudio
 python-dotenv
 deepgram-sdk
 openai

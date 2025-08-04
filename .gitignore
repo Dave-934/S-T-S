@@ -6,3 +6,4 @@ prompt.txt
 lvenv/
 __pycache__/
 *.pyc
+mpv.exe
