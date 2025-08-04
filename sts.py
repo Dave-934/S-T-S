@@ -50,7 +50,8 @@ class DeepgramSTT:
 
     def on_transcript(self, _, result, **kwargs):
         sentence = result.channel.alternatives[0].transcript
-        if sentence:
+        is_final = getattr(result, "is_final", False)
+        if sentence and is_final:
             print(f"🗣️ YOU SAID: {sentence}")
             self.on_transcript_callback(sentence)
 
@@ -63,7 +64,7 @@ class DeepgramSTT:
             sample_rate=SAMPLE_RATE,
             channels=1,
             vad_events=True,
-            endpointing=800
+            endpointing=1500
         )
         if not self.connection.start(options):
             print("❌ FAILED TO START DEEPGRAM.")
