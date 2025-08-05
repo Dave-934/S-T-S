@@ -22,7 +22,7 @@ This project is an **in-development real-time Speech-to-Speech (STS) VoiceBot** 
 - [OpenAI API key](https://platform.openai.com/)
 - [ElevenLabs API key](https://elevenlabs.io/)
 - Linux (tested), should work on Mac/Windows with minor changes
-- `ffmpeg` (with `ffplay`) installed and available in your `PATH`
+- `ffmpeg` (with `ffplay`) and/or 'mpv' installed and available in your `PATH`
 
 ### Python Dependencies
 
