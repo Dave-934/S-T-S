@@ -33,6 +33,7 @@ Typical requirements:
 - `deepgram-sdk`
 - `openai`
 - `elevenlabs`
+- `pyaudio`
 
 ---
 
