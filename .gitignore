@@ -1,5 +1,6 @@
 .env
 config.ini
+GoogleSTT.json
 demo_final.py
 demo_test.py
 prompt.txt
@@ -7,3 +8,4 @@ lvenv/
 __pycache__/
 *.pyc
 mpv.exe
+sts_deepgram(Previous).txt

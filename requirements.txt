@@ -2,6 +2,6 @@ sounddevice
 numpy
 pyaudio
 python-dotenv
-deepgram-sdk
+google-cloud-speech
 openai
 elevenlabs
